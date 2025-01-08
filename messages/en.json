@@ -15,7 +15,12 @@
     "username": "Username",
     "password": "Password",
     "submit": "Login",
-    "error": "{error, select, CredentialsSignin {Invalid username or password} other {Unknown error}}"
+    "error": "{error, select, CredentialsSignin {Invalid username or password} other {Unknown error}}",
+    "description": "Enter your email below to login to your account",
+    "forgot_password": "Forgot your password?",
+    "login_with_google": "Login with Google",
+    "no_account": "Don't have an account?",
+    "sign_up": "Sign up"
   },
   "LocaleSwitcher": {
     "switchLocale": "Switch to {locale, select, de {German} en {English} other {Unknown}}"

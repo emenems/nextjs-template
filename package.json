@@ -9,16 +9,23 @@
     "start": "next start"
   },
   "dependencies": {
+    "@radix-ui/react-label": "^2.1.1",
+    "@radix-ui/react-slot": "^1.1.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.469.0",
     "next": "^14.2.4",
     "next-auth": "^4.24.7",
     "next-intl": "^3.0.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@playwright/test": "^1.48.1",
     "@types/lodash": "^4.17.5",
-    "@types/node": "^20.14.5",
+    "@types/node": "^20.17.12",
     "@types/react": "^18.3.3",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.11.1",
