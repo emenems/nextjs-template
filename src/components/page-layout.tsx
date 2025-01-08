@@ -1,12 +1,12 @@
-import { ReactNode } from 'react';
+import { ReactNode } from "react"
 // import LocaleSwitcher from './LocaleSwitcher';
-import {ThemeSwitcher} from './theme-switcher';
-import { LocaleSwitcher } from './locale-switcher';
+import { ThemeSwitcher } from "./theme-switcher"
+import { LocaleSwitcher } from "./locale-switcher"
 
 type Props = {
-  children?: ReactNode;
-  title?: string;
-};
+  children?: ReactNode
+  title?: string
+}
 
 // export default function PageLayout({ children, title }: Props) {
 //   return (
@@ -27,7 +27,7 @@ export default function PageLayout({ children, title }: Props) {
     <div>
       <ThemeSwitcher />
       <LocaleSwitcher />
-        {children}
+      {children}
     </div>
-  );
+  )
 }
