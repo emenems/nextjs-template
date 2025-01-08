@@ -3,6 +3,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { ReactNode } from 'react';
 import { routing } from '@/i18n/routing';
+import { ThemeProvider } from 'next-themes';
 import '../../styles/global.css';
 
 type Props = {
@@ -27,9 +28,11 @@ export default async function LocaleLayout({
         <title>next-intl & next-auth</title>
       </head>
       <body>
+        <ThemeProvider attribute="class">
         <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
         </NextIntlClientProvider>
+        </ThemeProvider>
       </body>
     </html>
   );
