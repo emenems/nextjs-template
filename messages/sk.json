@@ -1,0 +1,32 @@
+{
+  "Index": {
+    "title": "Domov",
+    "loggedIn": "Prihlásený ako {username}",
+    "loggedOut": "Boli ste odhlásený.",
+    "login": "Prihlásiť sa",
+    "logout": "Odhlásiť sa",
+    "secret": "Tajná stránka pre prihlásených používateľov"
+  },
+  "LocaleLayout": {
+    "title": "nextjs-template"
+  },
+  "Login": {
+    "title": "Prihlásiť sa",
+    "username": "Používateľské meno",
+    "password": "Heslo",
+    "submit": "Prihlásiť sa",
+    "error": "{error, select, CredentialsSignin {Neplatné používateľské meno alebo heslo} other {Neznáma chyba}}",
+    "description": "Zadajte svoju e-mailovú adresu nižšie, aby ste sa prihlásili do svojho účtu",
+    "forgot_password": "Zabudli ste heslo?",
+    "login_with_google": "Prihlásiť sa cez Google",
+    "no_account": "Nemáte účet?",
+    "sign_up": "Zaregistrovať sa"
+  },
+  "LocaleSwitcher": {
+    "switchLocale": "Prepnúť na {locale, select, sk {Slovenčina} en {Angličtina} other {Neznámy}}"
+  },
+  "Secret": {
+    "title": "Tajná stránka",
+    "description": "Táto stránka je viditeľná iba pre prihlásených používateľov."
+  }
+}

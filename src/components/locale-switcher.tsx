@@ -14,8 +14,6 @@ import {
 
 export function LocaleSwitcher() {
   const t = useTranslations("LocaleSwitcher")
-  const locale = useLocale()
-  const otherLocale = locale === "en" ? "de" : "en"
   const pathname = usePathname()
 
   return (
@@ -23,7 +21,7 @@ export function LocaleSwitcher() {
       <DropdownMenuTrigger asChild>
         <Button variant="ghost" size="icon" className="fixed right-16 top-4">
           <Globe className="h-5 w-5" />
-          <span className="sr-only">Switch language</span>
+          <span className="sr-only">t('switchLocale')</span>
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
@@ -33,8 +31,8 @@ export function LocaleSwitcher() {
           </Link>
         </DropdownMenuItem>
         <DropdownMenuItem asChild>
-          <Link href={pathname} locale="de">
-            Deutsch (DE)
+          <Link href={pathname} locale="sk">
+            Slovensky (SK)
           </Link>
         </DropdownMenuItem>
       </DropdownMenuContent>

@@ -6,6 +6,8 @@ import { routing } from "./i18n/routing"
 const publicPages = [
   "/",
   "/login",
+  "/signup",
+  "/feedback",
   // (/secret requires auth)
 ]
 

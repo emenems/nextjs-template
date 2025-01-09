@@ -8,7 +8,7 @@
     "secret": "Secret page for logged in users"
   },
   "LocaleLayout": {
-    "title": "next-intl with Auth.js example"
+    "title": "nextjs-template"
   },
   "Login": {
     "title": "Login",
@@ -23,7 +23,7 @@
     "sign_up": "Sign up"
   },
   "LocaleSwitcher": {
-    "switchLocale": "Switch to {locale, select, de {German} en {English} other {Unknown}}"
+    "switchLocale": "Switch to {locale, select, sk {Slovak} en {English} other {Unknown}}"
   },
   "Secret": {
     "title": "Secret page",
