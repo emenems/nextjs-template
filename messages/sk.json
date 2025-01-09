@@ -1,6 +1,55 @@
 {
+  "Navigation": {
+    "home": "Domov",
+    "login": "Prihlásiť sa",
+    "feedback": "Spätná väzba",
+    "signup": "Zaregistrovať sa",
+    "github": "GitHub",
+    "admin": "Admin"
+  },
   "Index": {
+    "hero": {
+      "title-1": "Build Beyond",
+      "title-2": "Borders",
+      "description": "Moderný template pre Next.js v14 s autentifikáciou, internacionalizáciou, prepínaním tém a knižnicou komponentov shadcn/ui, ktorá vám pomôže naštartovať váš nový webový projekt.",
+      "new": "Nové",
+      "punchline": "Najrýchlejší spôsob, ako začať s vašou webovou aplikáciou"
+    },
+    "features": {
+      "authentication": {
+        "title": "Autentifikácia",
+        "description": "Zabezpečte svoju aplikáciu pomocou NextAuth.js. Podporuje Credentials vrátane rolí."
+      },
+      "internationalization": {
+        "title": "Internacionalizácia",
+        "description": "Rozšírte svoju aplikáciu do sveta s next-intl. Jednoduchá podpora viacerých jazykov a lokalizácií."
+      },
+      "analytics": {
+        "title": "Analytika",
+        "description": "Analyzujte správanie používateľov a výkon aplikácie s Vercel Analytics. Reálne časové prehľady a reporty."
+      },
+      "themes": {
+        "title": "Prepínanie režimov",
+        "description": "Bezproblémové prepínanie medzi svetlým a tmavým režimom. Podpora systémových preferencií a voľby používateľa."
+      },
+      "components": {
+        "title": "Knižnica komponentov",
+        "description": "Štýlové, prístupné komponenty od shadcn/ui. Jednoducho prispôsobiteľné a pripravené na použitie."
+      },
+      "free": {
+        "title": "Zadarmo",
+        "description": "Open-source projekt, ktorý môžete začať používať už dnes bez akýchkoľvek poplatkov."
+      }
+    },
     "title": "Domov",
+    "welcome": "Vitajte na našej vstupnej stránke",
+    "description": "Objavte špičkové funkcie našej aplikácie.",
+    "feature1Title": "Internacionalizácia",
+    "feature1Description": "Jednoduché spravovanie prekladov pomocou next-intl.",
+    "feature2Title": "Autentifikácia",
+    "feature2Description": "Bezpečná autentifikácia pomocou next-auth.",
+    "feature3Title": "Analytika",
+    "feature3Description": "Sledujte výkon pomocou Vercel Analytics.",
     "loggedIn": "Prihlásený ako {username}",
     "loggedOut": "Boli ste odhlásený.",
     "login": "Prihlásiť sa",
@@ -16,7 +65,7 @@
     "password": "Heslo",
     "submit": "Prihlásiť sa",
     "error": "{error, select, CredentialsSignin {Neplatné používateľské meno alebo heslo} other {Neznáma chyba}}",
-    "description": "Zadajte svoju e-mailovú adresu nižšie, aby ste sa prihlásili do svojho účtu",
+    "description": "Zadajte svoju e-mailovú adresu nižšie a prihláste sa do svojho účtu",
     "forgot_password": "Zabudli ste heslo?",
     "login_with_google": "Prihlásiť sa cez Google",
     "no_account": "Nemáte účet?",
@@ -27,6 +76,6 @@
   },
   "Secret": {
     "title": "Tajná stránka",
-    "description": "Táto stránka je viditeľná iba pre prihlásených používateľov."
+    "description": "Táto stránka je prístupná len prihláseným používateľom."
   }
 }

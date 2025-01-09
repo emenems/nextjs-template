@@ -8,7 +8,8 @@ const publicPages = [
   "/login",
   "/signup",
   "/feedback",
-  // (/secret requires auth)
+  "/forgot-password",
+  // (/admin requires auth)
 ]
 
 const intlMiddleware = createMiddleware(routing)

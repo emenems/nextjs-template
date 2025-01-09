@@ -1,6 +1,55 @@
 {
+  "Navigation": {
+    "home": "Home",
+    "login": "Login",
+    "feedback": "Feedback",
+    "signup": "Sign up",
+    "github": "GitHub",
+    "admin": "Admin"
+  },
   "Index": {
+    "hero": {
+      "title-1": "Build Beyond",
+      "title-2": "Borders",
+      "description": "A modern Next.js v14 starter template featuring authentication, internationalization, theme switching, and shadcn/ui component libraries to kickstart your next web application.",
+      "new": "New",
+      "punchline": "Fastest start to your new web-app"
+    },
+    "features": {
+      "authentication": {
+        "title": "Authentication & Authorization",
+        "description": "Secure your application with NextAuth.js. Support for Credentials and role-based access control."
+      },
+      "internationalization": {
+        "title": "Internationalization",
+        "description": "Make your app global with next-intl. Support for multiple languages and locales out of the box."
+      },
+      "analytics": {
+        "title": "Analytics",
+        "description": "Track user behavior and performance with Vercel Analytics. Real-time insights and reporting."
+      },
+      "themes": {
+        "title": "Theme Switching",
+        "description": "Toggle between light and dark modes seamlessly. Supports system preferences and user choice"
+      },
+      "components": {
+        "title": "Component Library",
+        "description": "Beautiful, accessible components from shadcn/ui. Customizable and ready to use."
+      },
+      "free": {
+        "title": "Free",
+        "description": "Open-source and free to use. Get started with your new project today."
+      }
+    },
     "title": "Home",
+    "welcome": "Welcome to Our Landing Page",
+    "description": "Discover the amazing features of our application.",
+    "feature1Title": "Internationalization",
+    "feature1Description": "Easily manage translations with next-intl.",
+    "feature2Title": "Authentication",
+    "feature2Description": "Secure authentication with next-auth.",
+    "feature3Title": "Analytics",
+    "feature3Description": "Monitor performance with Vercel analytics.",
     "loggedIn": "Logged in as {username}",
     "loggedOut": "You are logged out.",
     "login": "Login",

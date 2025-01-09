@@ -50,4 +50,6 @@ This project is optimized for deployment on Vercel.
 
 ## Tips
 
-- To include the Cookie consent, check [this video](https://www.youtube.com/watch?v=P5rGGE2nBCg) 
+- To include the Cookie consent
+  - check [this video](https://www.youtube.com/watch?v=P5rGGE2nBCg) for cookiebot integration
+  - check [this repo](https://github.com/vercel/examples/tree/main/edge-middleware/cookies) cookie consent handling
