@@ -1,13 +1,53 @@
-# example-app-router-next-auth
+# Next.js Starter Template
 
-An example that showcases the usage of `next-intl` together with Auth.js and the App Router.
+A modern **Next.js 14**.2.4 starter template featuring robust authentication, internationalization, theme switching, and component libraries to kickstart your next web application.
 
-**Credentials**: admin / admin
+> [next-intl example](https://github.com/amannn/next-intl/tree/main/examples/example-app-router-next-auth) was used as tempalte for this template :)
 
-See [the corresponding docs for this example](https://next-intl.dev/docs/routing/middleware#example-auth-js).
+## **Features**
+- 🚀 **[Next.js](https://nextjs.org)** v14.2.4 with React 18.3.1 and [pnpm](https://pnpm.io) package management
+- 🔒 **Authentication & Authorization** with **[NextAuth.js](https://next-auth.js.org)** using custom credentials.
+- 🌍 **[Next-Intl](http://next-intl.dev)** for seamless internationalization with support for **2 languages**.
+- 🎨 **[shadcn/ui](https://ui.shadcn.com)** component library for pre-styled and accessible UI components.
+- 🌗 **[Next-Themes](https://ui.shadcn.com/docs/dark-mode/next)** for smooth light/dark mode switching.
+- 📊 **[Vercel Analytics](https://vercel.com/docs/analytics)** for monitoring user engagement and performance metrics. 
+- 📄 Prebuilt pages:
+  - **Login Page**: User authentication via credentials.
+  - **Public Page**: Accessible to all visitors.
+  - **Admin Page**: Restricted to authorized admin users.
 
-## Deploy your own
+## Getting Started
 
-By deploying to [Vercel](https://vercel.com), you can check out the example in action. Note that you'll be prompted to create a new GitHub repository as part of this, allowing you to make subsequent changes.
+### Local developement
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/amannn/next-intl/tree/main/examples/example-app-router-next-auth)
+```bash
+# Get the repo
+git clone https://github.com/emenems/nextjs-template
+cd nextjs-template
+
+# Install dependencies
+pnpm install
+
+# Prepare environment
+cp .env.example .env.local
+vi .env.local
+
+# Run local server
+pnpm dev
+
+# Go to localhost:3000 and login using creds stored in .env.local file
+```
+
+### Deploy to Vercel
+
+This project is optimized for deployment on Vercel.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://github.com/emenems/nextjs-template)
+
+## To Do
+
+- add docker support
+
+## Tips
+
+- To include the Cookie consent, check [this video](https://www.youtube.com/watch?v=P5rGGE2nBCg) 
