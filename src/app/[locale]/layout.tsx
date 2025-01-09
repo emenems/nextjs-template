@@ -4,6 +4,7 @@ import { getMessages } from "next-intl/server"
 import { ReactNode } from "react"
 import { routing } from "@/i18n/routing"
 import { ThemeProvider } from "next-themes"
+import { Analytics } from '@vercel/analytics/next';
 import "../../styles/global.css"
 
 type Props = {
@@ -31,6 +32,7 @@ export default async function LocaleLayout({
         <ThemeProvider attribute="class">
           <NextIntlClientProvider locale={locale} messages={messages}>
             {children}
+            <Analytics />
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>
