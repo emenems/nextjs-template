@@ -15,6 +15,7 @@ A modern **Next.js 14**.2.4 starter template featuring robust authentication, in
   - **Login Page**: User authentication via credentials.
   - **Public Page**: Accessible to all visitors.
   - **Admin Page**: Restricted to authorized admin users.
+  - **Feedback Form**: using [Formspark](http://formspark.io)
 
 ## Getting Started
 

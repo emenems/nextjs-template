@@ -56,6 +56,26 @@
     "logout": "Logout",
     "secret": "Secret page for logged in users"
   },
+  "Feedback": {
+    "title": "Send Feedback",
+    "description": "We value your input! Let us know what you think about our product.",
+    "name": "Name",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "message": "Message",
+    "messagePlaceholder": "Tell us what you think...",
+    "topic": "Topic (optional)",
+    "topicPlaceholder": "Choose a topic",
+    "topicOptions": {
+      "general": "General feedback",
+      "bug": "Bug report",
+      "feature": "Feature request",
+      "other": "Other"
+    },
+    "submit": "Send feedback",
+    "sending": "Sending...",
+    "error": "{error, select, CredentialsFeedback {Invalid name or email} other {Unknown error}}"
+  },
   "LocaleLayout": {
     "title": "nextjs-template"
   },

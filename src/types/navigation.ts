@@ -7,4 +7,3 @@ export interface NavigationItem {
 export interface HeaderProps {
   navigationItems?: NavigationItem[]
 }
-

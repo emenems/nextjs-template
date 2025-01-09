@@ -4,7 +4,7 @@ import { getMessages } from "next-intl/server"
 import { ReactNode } from "react"
 import { routing } from "@/i18n/routing"
 import { ThemeProvider } from "next-themes"
-import { Analytics } from '@vercel/analytics/next';
+import { Analytics } from "@vercel/analytics/next"
 import "../../styles/global.css"
 
 type Props = {
@@ -26,7 +26,7 @@ export default async function LocaleLayout({
   return (
     <html lang={locale}>
       <head>
-        <title>next-intl & next-auth</title>
+        <title>Next.js Template</title>
       </head>
       <body>
         <ThemeProvider attribute="class">

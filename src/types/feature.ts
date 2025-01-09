@@ -7,4 +7,3 @@ export interface Feature {
 export interface FeatureListProps {
   features: Feature[]
 }
-

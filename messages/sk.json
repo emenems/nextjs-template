@@ -2,8 +2,8 @@
   "Navigation": {
     "home": "Domov",
     "login": "Prihlásiť sa",
-    "feedback": "Spätná väzba",
-    "signup": "Zaregistrovať sa",
+    "feedback": "Feedback",
+    "signup": "Registrácia",
     "github": "GitHub",
     "admin": "Admin"
   },
@@ -55,6 +55,26 @@
     "login": "Prihlásiť sa",
     "logout": "Odhlásiť sa",
     "secret": "Tajná stránka pre prihlásených používateľov"
+  },
+  "Feedback": {
+    "title": "Poslať spätnú väzbu",
+    "description": "Máte nejaké nápady, otázky alebo chyby, ktoré by ste nám chceli oznámiť? Napíšte nám!",
+    "name": "Meno",
+    "email": "Email",
+    "emailPlaceholder": "tvoj@email.sk",
+    "message": "Správa",
+    "messagePlaceholder": "Napíšte nám vašu správu...",
+    "topic": "Téma (voliteľné)",
+    "topicPlaceholder": "Vyberte tému",
+    "topicOptions": {
+      "general": "Všeobecné",
+      "bug": "Nahlásiť chybu",
+      "feature": "Vyžiadať funkciu",
+      "other": "Iné"
+    },
+    "submit": "Poslať",
+    "sending": "Posielam...",
+    "error": "{error, select, CredentialsFeedback {Invalid name or email} other {Unknown error}}"
   },
   "LocaleLayout": {
     "title": "nextjs-template"
