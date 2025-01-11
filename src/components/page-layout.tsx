@@ -4,6 +4,7 @@ import { ReactNode } from "react"
 import { ThemeSwitcher } from "./theme-switcher"
 import { LocaleSwitcher } from "./locale-switcher"
 import { Header } from "./header"
+import { Footer } from "./footer"
 import { NavigationItem } from "@/types/navigation"
 import { SessionProvider } from "next-auth/react"
 
@@ -22,7 +23,7 @@ export default function PageLayout({
 }: Props) {
   return (
     <SessionProvider session={session}>
-      <div>
+      <div className="flex min-h-screen flex-col">
         {headerLinks ? (
           <Header navigationItems={headerLinks} />
         ) : (
@@ -31,7 +32,8 @@ export default function PageLayout({
             <ThemeSwitcher />
           </>
         )}
-        {children}
+        <main className="mb-8 flex-grow">{children}</main>
+        <Footer />
       </div>
     </SessionProvider>
   )

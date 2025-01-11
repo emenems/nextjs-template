@@ -54,33 +54,14 @@ export function FeatureList({ features = defaultFeatures }: FeatureListProps) {
     <section className="flex flex-col items-center justify-center py-6 md:py-8">
       <motion.div
         className="container"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
-        variants={{
-          hidden: {},
-          visible: {
-            transition: {
-              staggerChildren: 0.1,
-            },
-          },
-        }}
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
       >
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {features.map((feature, index) => (
-            <motion.div
+          {features.map((feature) => (
+            <div
               key={feature.title}
-              variants={{
-                hidden: { opacity: 0, y: 20 },
-                visible: {
-                  opacity: 1,
-                  y: 0,
-                  transition: {
-                    duration: 0.5,
-                    ease: "easeOut",
-                  },
-                },
-              }}
               className="group relative rounded-lg border p-6 transition-all hover:border-foreground/10 hover:shadow-md"
             >
               <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-muted">
@@ -92,7 +73,7 @@ export function FeatureList({ features = defaultFeatures }: FeatureListProps) {
                   {feature.description}
                 </p>
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
       </motion.div>

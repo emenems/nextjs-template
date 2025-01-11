@@ -156,8 +156,14 @@
   "LocaleSwitcher": {
     "switchLocale": "Prepnúť na {locale, select, sk {Slovenčina} en {Angličtina} other {Neznámy}}"
   },
-  "Secret": {
-    "title": "Tajná stránka",
-    "description": "Táto stránka je prístupná len prihláseným používateľom."
+  "Footer": {
+    "title": "Template",
+    "description": "Moderný template pre Next.js v14",
+    "followUs": "Sledujte nás",
+    "aboutUs": "O nás",
+    "quickLinks": "Rýchle odkazy",
+    "contact": "Kontakt a feedback",
+    "privacy": "Ochrana osobných údajov",
+    "terms": "Podmienky používania"
   }
 }
