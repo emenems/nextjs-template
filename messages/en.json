@@ -89,7 +89,69 @@
     "forgot_password": "Forgot your password?",
     "login_with_google": "Login with Google",
     "no_account": "Don't have an account?",
-    "sign_up": "Sign up"
+    "sign_up": "Sign up",
+    "notAdmin": "You need administrator privileges to access this page.",
+    "denied": "Access denied.",
+    "goHome": "Return Home"
+  },
+  "User": {
+    "Management": {
+      "title": "User Management",
+      "description": "Manage your users and send invitations.",
+      "activeTab": "Active Users",
+      "invitedTab": "Invited Users",
+      "make": "Make",
+      "mark": "Mark as",
+      "Modify": {
+        "title": "Are you sure?",
+        "description": "This will update the user's status.",
+        "delete": "Delete",
+        "deleting": "Deleting...",
+        "cancel": "Cancel",
+        "update": "Update",
+        "Toast": {
+          "successTitle": "Status updated successfully",
+          "successDescription": "Use has been updated",
+          "failedTitle": "Failed to update status",
+          "failedDescription": "Could not update user status"
+        }
+      }
+    },
+    "Invite": {
+      "title": "Invite User",
+      "description": "Send an invitation email to add a new user to the system.",
+      "sendInvite": "Send Invite",
+      "sendiInviteStatus": "Sending invitation...",
+      "emailPlaceholder": "Enter Email address",
+      "datePlaceholder": "Pick a date",
+      "Modify": {
+        "title": "Delete invitation",
+        "description": "This will permanently delete the invitation. This action cannot be undone.",
+        "delete": "Delete",
+        "deleting": "Deleting...",
+        "cancel": "Cancel"
+      }
+    },
+    "Common": {
+      "email": "Email",
+      "name": "Name",
+      "surname": "Surname",
+      "role": "Role",
+      "roleAdmin": "Admin",
+      "roleUser": "User",
+      "status": "Status",
+      "statusActive": "Active",
+      "statusInactive": "Inactive",
+      "statusPanding": "Pending",
+      "statusBlocked": "Blocked",
+      "statusInvited": "Invited",
+      "statusExpired": "Expired",
+      "invited": "Invited",
+      "expires": "Expires",
+      "avatar": "Avatar",
+      "joined": "Joined",
+      "action": "Action"
+    }
   },
   "LocaleSwitcher": {
     "switchLocale": "Switch to {locale, select, sk {Slovak} en {English} other {Unknown}}"

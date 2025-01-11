@@ -25,7 +25,7 @@ export default function LandingPage({ session }: Props) {
   const tFeat = useTranslations("Index.features")
 
   const navigationItems = [
-    { name: tNav("home"), href: "/docs", isActive: true },
+    { name: tNav("home"), href: "/", isActive: true },
     { name: tNav("login"), href: "/login" },
     { name: tNav("signup"), href: "/signup" },
     { name: tNav("feedback"), href: "/feedback" },

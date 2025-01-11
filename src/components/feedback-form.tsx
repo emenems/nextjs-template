@@ -1,16 +1,9 @@
 "use client"
 
 import { useState } from "react"
-import { useFormState, useFormStatus } from "react-dom"
+import { useFormState } from "react-dom"
 import { motion, AnimatePresence } from "framer-motion"
-import {
-  Loader2,
-  Bug,
-  Lightbulb,
-  MessageCircle,
-  HelpCircle,
-} from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { Bug, Lightbulb, MessageCircle, HelpCircle } from "lucide-react"
 import {
   Card,
   CardContent,
@@ -31,31 +24,7 @@ import { Textarea } from "@/components/ui/textarea"
 import { submitFeedback } from "@/actions/feedback"
 import type { FeedbackTopic, FeedbackFormProps } from "@/types/feedback"
 import { useTranslations } from "next-intl"
-
-type SubmitButtonProps = {
-  label?: string
-  statusText?: string
-}
-
-function SubmitButton({
-  label = "Send feedback",
-  statusText = "Sending...",
-}: SubmitButtonProps) {
-  const { pending } = useFormStatus()
-
-  return (
-    <Button type="submit" size="sm" disabled={pending}>
-      {pending ? (
-        <>
-          <Loader2 className="mr-2 h-3 w-3 animate-spin" />
-          {statusText}
-        </>
-      ) : (
-        label
-      )}
-    </Button>
-  )
-}
+import { SubmitButton } from "./submit-button"
 
 export function FeedbackForm({ source, email }: FeedbackFormProps) {
   const [topic, setTopic] = useState<FeedbackTopic>()

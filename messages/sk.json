@@ -89,7 +89,69 @@
     "forgot_password": "Zabudli ste heslo?",
     "login_with_google": "Prihlásiť sa cez Google",
     "no_account": "Nemáte účet?",
-    "sign_up": "Zaregistrovať sa"
+    "sign_up": "Zaregistrovať sa",
+    "notAdmin": "Pre prístup na túto stránku potrebujete administrátorské práva.",
+    "denied": "Prístup zamietnutý.",
+    "goHome": "Späť domov"
+  },
+  "User": {
+    "Management": {
+      "title": "Správa používateľov",
+      "description": "Spravujte svojich používateľov a posielajte pozvánky.",
+      "activeTab": "Aktívni používatelia",
+      "invitedTab": "Pozvaní používatelia",
+      "make": "Urobiť",
+      "mark": "Označiť ako",
+      "Modify": {
+        "title": "Ste si istý?",
+        "description": "Týmto sa aktualizuje stav používateľa.",
+        "delete": "Vymazať",
+        "deleting": "Vymazávanie...",
+        "cancel": "Zrušiť",
+        "update": "Aktualizovať",
+        "Toast": {
+          "successTitle": "Stav bol úspešne aktualizovaný",
+          "successDescription": "Používateľ bol aktualizovaný",
+          "failedTitle": "Nepodarilo sa aktualizovať stav",
+          "failedDescription": "Nepodarilo sa aktualizovať stav používateľa"
+        }
+      }
+    },
+    "Invite": {
+      "title": "Pozvať používateľa",
+      "description": "Pošlite pozvánku e-mailom na pridanie nového používateľa do systému.",
+      "sendInvite": "Poslať pozvánku",
+      "sendiInviteStatus": "Posielanie pozvánky...",
+      "emailPlaceholder": "Zadajte e-mailovú adresu",
+      "datePlaceholder": "Vyberte dátum",
+      "Modify": {
+        "title": "Vymazať pozvánku",
+        "description": "Týmto sa natrvalo vymaže pozvánka. Táto akcia sa nedá vrátiť späť.",
+        "delete": "Vymazať",
+        "deleting": "Vymazávanie...",
+        "cancel": "Zrušiť"
+      }
+    },
+    "Common": {
+      "email": "E-mail",
+      "name": "Meno",
+      "surname": "Priezvisko",
+      "role": "Rola",
+      "roleAdmin": "Admin",
+      "roleUser": "Užívateľ",
+      "status": "Stav",
+      "statusActive": "Aktívny",
+      "statusInactive": "Neaktívny",
+      "statusPanding": "Čakajúci",
+      "statusBlocked": "Blokovaný",
+      "statusInvited": "Pozvaný",
+      "statusExpired": "Vypršaný",
+      "invited": "Pozvaný",
+      "expires": "Vyprší",
+      "avatar": "Avatar",
+      "joined": "Od",
+      "action": "Akcia"
+    }
   },
   "LocaleSwitcher": {
     "switchLocale": "Prepnúť na {locale, select, sk {Slovenčina} en {Angličtina} other {Neznámy}}"

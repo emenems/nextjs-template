@@ -1,14 +1,19 @@
 "use client"
 
-import { useTranslations } from "next-intl"
-import PageLayout from "@/components/page-layout"
+import { useSession } from "next-auth/react"
+import { NotAdmin } from "@/components/not-admin"
+import AdminDashboard from "@/components/admin-dashboard"
 
-export default function Secret() {
-  const t = useTranslations("Secret")
+export default function AdminPage() {
+  const { data: session } = useSession()
 
-  return (
-    <PageLayout title={t("title")}>
-      <p>{t("description")}</p>
-    </PageLayout>
-  )
+  if (!session) {
+    return <NotAdmin />
+  }
+
+  if (session.user.role !== "admin") {
+    return <NotAdmin />
+  }
+
+  return <AdminDashboard />
 }

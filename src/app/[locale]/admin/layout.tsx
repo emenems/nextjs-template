@@ -2,8 +2,9 @@
 
 import PageLayout from "@/components/page-layout"
 import { useTranslations } from "next-intl"
+import { Toaster } from "@/components/ui/toaster"
 
-export default function FeedbackLayout({
+export default function AdminLayout({
   children,
 }: {
   children: React.ReactNode
@@ -14,13 +15,14 @@ export default function FeedbackLayout({
     { name: tNav("home"), href: "/" },
     { name: tNav("login"), href: "/login" },
     { name: tNav("signup"), href: "/signup" },
-    { name: tNav("feedback"), href: "/feedback", isActive: true },
-    { name: tNav("admin"), href: "/admin" },
+    { name: tNav("feedback"), href: "/feedback" },
+    { name: tNav("admin"), href: "/admin", isActive: true },
   ]
 
   return (
     <PageLayout title={tFeed("title")} headerLinks={navigationItems}>
-      {children}
+      <div className="p-8">{children}</div>
+      <Toaster />
     </PageLayout>
   )
 }
