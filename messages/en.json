@@ -82,6 +82,7 @@
   "Login": {
     "title": "Login",
     "username": "Username",
+    "email": "Email",
     "password": "Password",
     "submit": "Login",
     "error": "{error, select, CredentialsSignin {Invalid username or password} other {Unknown error}}",
@@ -134,6 +135,9 @@
     },
     "Common": {
       "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "password": "Password",
+      "passwordPlaceholder": "Enter password",
       "name": "Name",
       "surname": "Surname",
       "role": "Role",
@@ -150,11 +154,32 @@
       "expires": "Expires",
       "avatar": "Avatar",
       "joined": "Joined",
-      "action": "Action"
+      "action": "Action",
+      "create": "Create",
+      "creating": "Creating...",
+      "and": "and"
+    },
+    "Create": {
+      "title": "Create an Account",
+      "description": "Create a new user account.",
+      "successTitle": "User created successfully",
+      "successDescription": "User account has been created",
+      "failedTitle": "Failed to create user",
+      "failedDescription": "Could not create user account",
+      "iAgree": "I agree to the",
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy",
+      "marketing": "I want to receive marketing emails with product updates and company announcements"
+    },
+    "Login": {
+      "title": "Login",
+      "description": "Enter your email below to login to your account",
+      "submit": "Login",
+      "error": "{error, select, CredentialsSignin {Invalid username or password} other {Unknown error}}"
     }
   },
   "LocaleSwitcher": {
-    "switchLocale": "Switch to {locale, select, sk {Slovak} en {English} other {Unknown}}"
+    "switchLocale": "Switch language"
   },
   "Footer": {
     "title": "Template",

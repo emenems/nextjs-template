@@ -134,6 +134,9 @@
     },
     "Common": {
       "email": "E-mail",
+      "emailPlaceholder": "vas@email.sk",
+      "password": "Heslo",
+      "passwordPlaceholder": "Vaše heslo",
       "name": "Meno",
       "surname": "Priezvisko",
       "role": "Rola",
@@ -150,11 +153,32 @@
       "expires": "Vyprší",
       "avatar": "Avatar",
       "joined": "Od",
-      "action": "Akcia"
+      "action": "Akcia",
+      "create": "Vytvoriť",
+      "creating": "Vytváranie...",
+      "and": "a"
+    },
+    "Create": {
+      "title": "Vytvoriť účet",
+      "description": "Vytvoriť nový používateľský účet",
+      "successTitle": "Používateľský účet bol úspešne vytvorený",
+      "successDescription": "Používateľský účet bol vytvorený",
+      "failedTitle": "Nepodarilo sa vytvoriť používateľský účet",
+      "failedDescription": "Nepodarilo sa vytvoriť používateľský účet",
+      "iAgree": "Súhlasím s",
+      "terms": "Všeobecnými obchodnými podmienkami",
+      "privacy": "Zásadami ochrany osobných údajov",
+      "marketing": "Súhlasím so zasielaním marketingových správ"
+    },
+    "Login": {
+      "title": "Prihlásiť sa",
+      "description": "Zadajte svoju e-mailovú adresu nižšie a prihláste sa do svojho účtu",
+      "submit": "Prihlásiť sa",
+      "error": "{error, select, CredentialsSignin {Neplatné heslo alebo užívateľské meno} other {Unknown error}}"
     }
   },
   "LocaleSwitcher": {
-    "switchLocale": "Prepnúť na {locale, select, sk {Slovenčina} en {Angličtina} other {Neznámy}}"
+    "switchLocale": "Prepnúť jazyk"
   },
   "Footer": {
     "title": "Template",

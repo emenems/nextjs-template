@@ -20,7 +20,7 @@ export default function FeedbackLayout({
 
   return (
     <PageLayout title={tFeed("title")} headerLinks={navigationItems}>
-      {children}
+      <div className="mt-24 p-8">{children}</div>
     </PageLayout>
   )
 }

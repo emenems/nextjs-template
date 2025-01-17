@@ -28,12 +28,14 @@ export default function PageLayout({
           <Header navigationItems={headerLinks} />
         ) : (
           <>
-            <LocaleSwitcher />
-            <ThemeSwitcher />
+            <div className="ml-auto flex items-center space-x-4">
+              <LocaleSwitcher />
+              <ThemeSwitcher />
+            </div>
           </>
         )}
         <main className="mb-8 flex-grow">{children}</main>
-        <Footer />
+        {headerLinks ? <Footer /> : null}
       </div>
     </SessionProvider>
   )

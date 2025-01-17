@@ -21,7 +21,7 @@ export default function AdminLayout({
 
   return (
     <PageLayout title={tFeed("title")} headerLinks={navigationItems}>
-      <div className="p-8">{children}</div>
+      <div className="mt-24 p-8">{children}</div>
       <Toaster />
     </PageLayout>
   )
