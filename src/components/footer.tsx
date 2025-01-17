@@ -58,6 +58,10 @@ export function Footer() {
                   </Link>
                 )}
               </div>
+              {/* Copyright */}
+              <p className="text-sm text-muted-foreground">
+                © {new Date().getFullYear()} {t("rights")}
+              </p>
             </div>
           </div>
 

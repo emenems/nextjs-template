@@ -178,6 +178,86 @@
       "error": "{error, select, CredentialsSignin {Invalid username or password} other {Unknown error}}"
     }
   },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "description": "Last updated: January 17, 2025",
+    "Sections": {
+      "Introduction": {
+        "title": "Introduction",
+        "content": "Welcome to our Privacy Policy. Your privacy is critically important to us."
+      },
+      "DataCollected": {
+        "title": "Data Collected",
+        "content": "We collect information such as your name, email, and usage data."
+      },
+      "PurposeOfCollection": {
+        "title": "Purpose of Collection",
+        "content": "We use your data to provide and improve our services."
+      },
+      "DataStorageDuration": {
+        "title": "How Long Is the Data Stored",
+        "content": "We store your data for as long as necessary to fulfill the purposes outlined in this policy."
+      },
+      "ThirdCountries": {
+        "title": "Involvement Into Third Countries",
+        "content": "Your data might be processed in countries outside of your own."
+      },
+      "YourRights": {
+        "title": "Your Rights",
+        "content": "You have the right to access, correct, and delete your data, among other rights."
+      },
+      "Cookies": {
+        "title": "Cookies",
+        "content": "We use cookies to enhance your browsing experience and analyze site traffic."
+      },
+      "Conclusion": {
+        "title": "Conclusion",
+        "content": "Thank you for reading our Privacy Policy. If you have any questions, feel free to contact us."
+      }
+    }
+  },
+  "TermsOfUse": {
+    "title": "Terms of use",
+    "description": "Last updated: January 17, 2025",
+    "Sections": {
+      "Introduction": {
+        "title": "Introduction",
+        "content": "Welcome to our website! By accessing or using our services, you agree to comply with these Terms of Use. If you do not agree, please do not use our services."
+      },
+      "UseOfServices": {
+        "title": "Use of the Services",
+        "content": "You are permitted to use our services for lawful purposes only. Any unauthorized or harmful use is strictly prohibited."
+      },
+      "UserObligations": {
+        "title": "User Obligations",
+        "content": "You agree to provide accurate information when using our services and refrain from engaging in any activities that could harm the platform or other users."
+      },
+      "IntellectualProperty": {
+        "title": "Intellectual Property",
+        "content": "All content, trademarks, and materials provided on this site are owned by us or our licensors. You may not reproduce, distribute, or create derivative works without permission."
+      },
+      "LimitationOfLiability": {
+        "title": "Limitation of Liability",
+        "content": "We are not responsible for any damages arising from your use of our services. Use the platform at your own risk."
+      },
+      "Termination": {
+        "title": "Termination of Use",
+        "content": "We reserve the right to suspend or terminate your access if you violate these terms."
+      },
+      "GoverningLaw": {
+        "title": "Governing Law",
+        "content": "These terms are governed by the laws of [Insert Jurisdiction]."
+      },
+      "ChangesToTerms": {
+        "title": "Changes to Terms",
+        "content": "We may update these Terms of Use from time to time. Please review them regularly."
+      },
+      "Conclusion": {
+        "title": "Conclusion",
+        "content": "For any questions about these terms, feel free to contact us at [Insert Contact Information]."
+      }
+    }
+  },
   "LocaleSwitcher": {
     "switchLocale": "Switch language"
   },
@@ -189,6 +269,7 @@
     "quickLinks": "Quick links",
     "contact": "Contact",
     "privacy": "Privacy",
-    "terms": "Terms"
+    "terms": "Terms",
+    "rights": "All rights reserved"
   }
 }

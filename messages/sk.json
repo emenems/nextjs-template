@@ -177,6 +177,86 @@
       "error": "{error, select, CredentialsSignin {Neplatné heslo alebo užívateľské meno} other {Unknown error}}"
     }
   },
+  "Privacy": {
+    "title": "Zásady ochrany osobných údajov",
+    "description": "Podmienky sú platné od 17. januára 2025.",
+    "Sections": {
+      "Introduction": {
+        "title": "Úvod",
+        "content": "Úvodný text..."
+      },
+      "DataCollected": {
+        "title": "Osobné údaje",
+        "content": "Osobné údaje text..."
+      },
+      "PurposeOfCollection": {
+        "title": "Účel spracovania",
+        "content": "Účel spracovania text..."
+      },
+      "DataStorageDuration": {
+        "title": "Doba spracúvania",
+        "content": "Doba spracúvania text..."
+      },
+      "ThirdCountries": {
+        "title": "Prenos údajov",
+        "content": "Prenos údajov..."
+      },
+      "YourRights": {
+        "title": "Vaše práva",
+        "content": "Vaše práva text..."
+      },
+      "Cookies": {
+        "title": "Cookies",
+        "content": "Cookies text..."
+      },
+      "Conclusion": {
+        "title": "Záver",
+        "content": "Záver text..."
+      }
+    }
+  },
+  "TermsOfUse": {
+    "title": "Všeobecné obchodné podmienky",
+    "description": "Podmienky sú platné od 17. januára 2025.",
+    "Sections": {
+      "Introduction": {
+        "title": "Úvod",
+        "content": "Vitajte na našej webovej stránke! Používaním našich služieb súhlasíte s týmito Podmienkami používania. Ak nesúhlasíte, prosím, nepoužívajte naše služby."
+      },
+      "UseOfServices": {
+        "title": "Používanie služieb",
+        "content": "Naše služby môžete používať len na zákonné účely. Akékoľvek neoprávnené alebo škodlivé používanie je prísne zakázané."
+      },
+      "UserObligations": {
+        "title": "Povinnosti používateľa",
+        "content": "Súhlasíte s poskytovaním presných informácií pri používaní našich služieb a zdržaním sa akýchkoľvek činností, ktoré by mohli poškodiť platformu alebo ostatných používateľov."
+      },
+      "IntellectualProperty": {
+        "title": "Duševné vlastníctvo",
+        "content": "Všetok obsah, ochranné známky a materiály na tejto stránke sú naším majetkom alebo majetkom našich poskytovateľov licencií. Obsah nesmiete reprodukovať, distribuovať ani vytvárať odvodené diela bez povolenia."
+      },
+      "LimitationOfLiability": {
+        "title": "Obmedzenie zodpovednosti",
+        "content": "Nie sme zodpovední za akékoľvek škody vyplývajúce z používania našich služieb. Používajte platformu na vlastné riziko."
+      },
+      "Termination": {
+        "title": "Ukončenie používania",
+        "content": "Vyhradzujeme si právo pozastaviť alebo ukončiť váš prístup v prípade porušenia týchto podmienok."
+      },
+      "GoverningLaw": {
+        "title": "Rozhodné právo",
+        "content": "Tieto podmienky sa riadia zákonmi [Vložte jurisdikciu]."
+      },
+      "ChangesToTerms": {
+        "title": "Zmeny podmienok",
+        "content": "Tieto Podmienky používania môžeme z času na čas aktualizovať. Prosím, pravidelne ich kontrolujte."
+      },
+      "Conclusion": {
+        "title": "Kontaktujte nás",
+        "content": "Ak máte akékoľvek otázky týkajúce sa týchto podmienok, neváhajte nás kontaktovať na [Vložte kontaktné informácie]."
+      }
+    }
+  },
   "LocaleSwitcher": {
     "switchLocale": "Prepnúť jazyk"
   },
@@ -188,6 +268,7 @@
     "quickLinks": "Rýchle odkazy",
     "contact": "Kontakt a feedback",
     "privacy": "Ochrana osobných údajov",
-    "terms": "Podmienky používania"
+    "terms": "Podmienky používania",
+    "rights": "All rights reserved"
   }
 }

@@ -5,6 +5,7 @@ import { signIn } from "next-auth/react"
 import { useLocale, useTranslations } from "next-intl"
 import { FormEvent, useState } from "react"
 import PageLayout from "@/components/page-layout"
+import { LogoAnimated } from "@/components/logo-animated"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import {
@@ -96,12 +97,15 @@ export default function Login() {
                 </form>
                 <div className="mt-4 text-center text-sm">
                   {t("no_account")}{" "}
-                  <a href="#" className="underline underline-offset-4">
+                  <a href="/signup" className="underline underline-offset-4">
                     {t("sign_up")}
                   </a>
                 </div>
               </CardContent>
             </Card>
+            <div className="flex justify-center">
+              <LogoAnimated />
+            </div>
           </div>
         </div>
       </div>
