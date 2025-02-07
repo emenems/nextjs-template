@@ -23,6 +23,7 @@ export default function Login() {
   const t = useTranslations("Login")
   const [error, setError] = useState<string>()
   const router = useRouter()
+  const callbackUrl = "/" + locale
 
   function onSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault()
@@ -32,12 +33,12 @@ export default function Login() {
     signIn("credentials", {
       username: formData.get("username"),
       password: formData.get("password"),
-      redirect: false,
+      redirect: true,
     }).then((result) => {
       if (result?.error) {
         setError(result.error)
       } else {
-        router.push("/" + locale)
+        router.push(callbackUrl)
       }
     })
   }
