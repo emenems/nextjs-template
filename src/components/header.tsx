@@ -7,6 +7,8 @@ import { LayoutTemplate, Menu } from "lucide-react"
 import { LocaleSwitcher } from "./locale-switcher"
 import { ThemeSwitcher } from "./theme-switcher"
 import { Button } from "@/components/ui/button"
+import { useSession } from "next-auth/react"
+
 import {
   Sheet,
   SheetContent,
@@ -27,9 +29,13 @@ const defaultNavigationItems = [
 
 export function Header({
   navigationItems = defaultNavigationItems,
-}: HeaderProps) {
+}: HeaderProps & { loggedIn?: boolean }) {
   const [isOpen, setIsOpen] = useState(false)
-
+  const { data: session } = useSession()
+  const loggedIn = !!session
+  const filteredNavigationItems = navigationItems.filter(
+    (item) => !loggedIn || (item.href !== "/login" && item.href !== "/signup"),
+  )
   return (
     <div className="fixed left-0 right-0 top-0 z-50 border-b bg-white dark:border-gray-700 dark:bg-gray-900">
       <div className="mx-auto flex h-14 max-w-screen-2xl items-center px-4 md:px-8">
@@ -50,7 +56,7 @@ export function Header({
                 </SheetTitle>
               </SheetHeader>
               <nav className="mt-6 flex flex-col space-y-3">
-                {navigationItems.map((item) => (
+                {filteredNavigationItems.map((item) => (
                   <Link
                     key={item.name}
                     href={item.href}
@@ -78,7 +84,7 @@ export function Header({
 
         {/* Desktop Navigation */}
         <nav className="ml-6 hidden items-center gap-6 text-sm md:flex">
-          {navigationItems.map((item) => (
+          {filteredNavigationItems.map((item) => (
             <Link
               key={item.name}
               href={item.href}

@@ -1,6 +1,7 @@
 "use client"
 
 import { useRouter } from "next/navigation"
+import Link from "next/link"
 import { signIn } from "next-auth/react"
 import { useLocale, useTranslations } from "next-intl"
 import { FormEvent, useState } from "react"
@@ -105,7 +106,9 @@ export default function Login() {
               </CardContent>
             </Card>
             <div className="flex justify-center">
-              <LogoAnimated />
+              <Link href={callbackUrl}>
+                <LogoAnimated />
+              </Link>
             </div>
           </div>
         </div>

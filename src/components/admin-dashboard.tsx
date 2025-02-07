@@ -4,7 +4,8 @@ import { InvitedUsersTable } from "./invited-users-table"
 import { InviteUserForm } from "./invite-users-form"
 import type { User, InvitedUser, UserRole } from "@/types/user"
 import { useTranslations } from "next-intl"
-import { UsersTableSkeleton } from "./skeleton/users-table-skeleton"
+import { Button } from "@/components/ui/button"
+import { signOut } from "next-auth/react"
 
 // Sample data - replace with your actual data fetching logic
 const users: User[] = [
@@ -84,12 +85,20 @@ export default function AdminDashboard() {
           </TabsContent>
           <TabsContent value="invited" className="space-y-4">
             <InvitedUsersTable users={invitedUsers} />
-
             <div className="flex flex-col gap-6">
               <InviteUserForm />
             </div>
           </TabsContent>
         </Tabs>
+        <div className="flex justify-end">
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={() => signOut({ callbackUrl: "/" })}
+          >
+            {t("Management.logout")}
+          </Button>
+        </div>
       </div>
     </div>
   )

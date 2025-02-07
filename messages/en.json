@@ -103,6 +103,7 @@
       "invitedTab": "Invited Users",
       "make": "Make",
       "mark": "Mark as",
+      "logout": "Logout",
       "Modify": {
         "title": "Are you sure?",
         "description": "This will update the user's status.",
